@@ -155,6 +155,7 @@ async function sleepButton(ms) {
 
 function resize(e) {
     let [w,h] = resizeCanvas(e)
+    console.log("resize")
     infosBox.style.maxWidth = `${w-10}px`
 }
 
