@@ -13,8 +13,16 @@ body {
 	height          : 100%;
 	background-color: gray;
 	overflow        : hidden;
+	display: flex;
+	justify-content: center;
 	/* background: #f2f2f2; */
 	/* background: #e92929; */
+}
+
+.main-container {
+	position: relative;
+	display: flex;
+	align-items: center;
 }
 
 canvas {
@@ -24,7 +32,12 @@ canvas {
 	-webkit-box-shadow: 0 0 16px 2px rgba(0,0,0,0.8);
 	box-shadow: 0 0 16px 2px rgba(0,0,0,0.8);
 }
-
+.commands {
+	position: absolute;
+    bottom: 0;
+    height: 3rem;
+    width: 100%;
+}
 p {
 	text-align: center;
 }
