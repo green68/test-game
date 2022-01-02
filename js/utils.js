@@ -15,12 +15,12 @@ function resizeCanvas(e) {
     if (ratio > ratio2) {
         newWidth = width //- 1
         newHeight = Math.floor(newWidth / ratio)
-        canvas.style.marginTop = Math.floor(height - newHeight) / 2 + 'px'
+        // canvas.style.marginTop = Math.floor(height - newHeight) / 2 + 'px'
         //canvas.setAttribute('style', `width: ${newWidth}px; height: ${newHeight}; `) 
     } else {
         newHeight = height //- 1
         newWidth = Math.floor(newHeight * ratio)
-        canvas.style.marginLeft = Math.floor(width - newWidth) / 2 + 'px'
+        // canvas.style.marginLeft = Math.floor(width - newWidth) / 2 + 'px'
     }
     canvas.style.width = newWidth + 'px'
     canvas.style.height = newHeight + 'px'
